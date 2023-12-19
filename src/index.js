@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Counter from './js/App';
+import './App.css';
+import App from './js/App';
 import reportWebVitals from './reportWebVitals';
 import ToggleButton from './js/ToggleButton';
 import IndexExample from './js/IndexExample';
@@ -15,8 +15,8 @@ import PracticeTwo from './js/PracticeTwo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   {/* <App />*/}
-    <Counter />
+   <App />
+    {/* <Counter />
     <ToggleButton />
     <IndexExample />
     <ImageChange />
@@ -24,7 +24,7 @@ root.render(
     <AnimalSound />
     <TimerCount />
     <ExampleCallback />
-    <PracticeTwo />
+    <PracticeTwo /> */}
   </React.StrictMode>
 );
 
