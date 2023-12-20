@@ -27,6 +27,7 @@ function Board(){
         //localStorage 밑에 Item과 setItem 존재함
         //'posts'키에 현재 게시글 목록과 새로운 게시글을 추가한 배열을 JSON 문자열로 변환해서 저장
     localStorage.setItem('posts',JSON.stringify([...posts,newPost]));
+
     }
 
     const removeTodos=(index)=>{
@@ -34,7 +35,7 @@ function Board(){
 
         deleteTodos.splice(index,1);
         setPosts(deleteTodos);
-        localStorage.setItem('posts',JSON.stringify(removeTodos));
+        localStorage.setItem('posts',JSON.stringify(deleteTodos));
 
     }
     /*
