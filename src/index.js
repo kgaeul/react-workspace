@@ -11,6 +11,8 @@ import AnimalSound from './js/Animal';
 import ExampleCallback from './js/ExampleCallback';
 import TimerCount from './js/TimerCount';
 import PracticeTwo from './js/PracticeTwo';
+import ParentComponent from './js/ParentComponent';
+import Board from './js/Board';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +27,8 @@ root.render(
     <TimerCount />
     <ExampleCallback />
     <PracticeTwo /> */}
+    {/* <ParentComponent />
+    <Board /> */}
   </React.StrictMode>
 );
 
